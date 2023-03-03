@@ -24,6 +24,7 @@ curl -H "Content-Type: application/json" \
 
 # STEP THREE: then do a lazy install
 git clone https://github.com/pterodactyl-installer/pterodactyl-installer
+cd pterodactyl-installer
 ./install.sh
 
 # STEP FOUR: Obtain the auto-setup token from the panel and paste it in the CLI of the new node
