@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # STEP ONE: Create the instance
-# instance type for tiny is "g6-standard-1", region for sydney is "ap-southeast"
+# instance type for tiny is "g6-standard-1" and for dedicated, "g6-dedicated-4",
+# region for sydney is "ap-southeast"
 curl -H "Content-Type: application/json" \
 -H "Authorization: Bearer $TOKEN" \
 -X POST -d '{
